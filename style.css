@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.title{
+  color: green;
+  text-align: center
+}
+.parent{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.photo img{
+width: 250px;
+}
+.details-dtn{
+  padding: 15px 50px;
+  border: none;
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, green, red, green);
+  background-color: red;
+}
+.details-dtn:hover{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+.second-section{
+  text-align: center;
+  margin-top: 50px;
+  margin: 0 auto;
+  width: 80%;
+  
+}
+.dhaka{
+  width: 250px;
+  border: 1px solid gray;
+  box-shadow: 4px 4px 12px gray;
+  border-radius: 5px;
+  
+}
+.div-img img{
+  width: 100%;
+}
+.all-divisions{
+  text-align: center;
+  display:flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+.bottom-section{
+  padding: 15px;
+}
